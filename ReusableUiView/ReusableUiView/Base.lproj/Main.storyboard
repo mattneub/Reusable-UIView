@@ -19,8 +19,7 @@
                                 <rect key="frame" x="0.0" y="248" width="414" height="400"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="400" id="0OJ-To-0xJ"/>
-                                    <constraint firstAttribute="width" constant="414" id="dnf-rO-2Y7"/>
+                                    <constraint firstAttribute="height" constant="400" id="ZVC-hV-7s1"/>
                                 </constraints>
                             </view>
                         </subviews>

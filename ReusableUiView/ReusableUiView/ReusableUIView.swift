@@ -9,7 +9,7 @@ import UIKit
 
 class ReusableUIView: UIView {
     
-    @IBOutlet weak var background: ReusableUIView!
+    @IBOutlet weak var background: UIView!
     @IBOutlet weak var label: UILabel!
     
     
@@ -25,11 +25,11 @@ class ReusableUIView: UIView {
         commonInit()
     }
     
-    
     func commonInit() {
         guard let view = loadViewFromNib() else { return }
         view.frame = self.bounds
         self.addSubview(view)
+        view.autoresizingMask = [.flexibleHeight, .flexibleWidth]
     }
     
     func loadViewFromNib() -> UIView? {
